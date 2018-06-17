@@ -12,5 +12,6 @@ class Transfer
   end
   
    def valid?
-     
+     @sender.valid? && @receiver.valid? && self.amount > 0 
+    end 
 end
