@@ -22,7 +22,7 @@ class Transfer
         self.status = "complete"
      
       else 
-        bad_transfer
+        
       end 
     end 
         
