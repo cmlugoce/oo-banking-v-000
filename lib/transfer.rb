@@ -22,8 +22,7 @@ class Transfer
         self.status = "complete"
      
       else 
-        @status = "rejected"
-        "Transaction rejected. Please check your account balance."
+        bad_transfer
       end 
     end 
         
